@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Real customer reviews for Anirudh Singh Website Design Services. Submit your genuine review after working with Anirudh Singh.">
+  <meta name="keywords" content="Anirudh Singh reviews, website designer reviews, real customer reviews, website design in Bhiwani">
+  <title>Reviews | Real Customer Reviews for Anirudh Singh</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">AS</span><span><strong>Anirudh Singh</strong><small>Website Design Studio</small></span></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="reviews.html" class="active">Reviews ⭐</a><a href="contact.html">Contact</a></div>
+      <a class="btn nav-cta whatsapp-cta" href="https://wa.me/919467165134?text=Hello%20Anirudh%20Singh%2C%20I%20want%20a%20website%20quote." target="_blank" rel="noopener"><svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.01 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.45 1.72 6.38L3.12 29l6.82-1.79a12.7 12.7 0 0 0 6.07 1.55c7.05 0 12.78-5.73 12.78-12.78S23.06 3.2 16.01 3.2Zm0 23.39c-1.91 0-3.77-.51-5.4-1.48l-.39-.23-4.05 1.06 1.08-3.95-.26-.41a10.55 10.55 0 0 1-1.6-5.6c0-5.86 4.76-10.62 10.62-10.62 5.85 0 10.62 4.76 10.62 10.62 0 5.85-4.77 10.61-10.62 10.61Zm5.82-7.95c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.71.16-.21.32-.82 1.03-1 1.24-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.59-1.88-1.77-2.2-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.71-.98-2.35-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.65s1.14 3.08 1.3 3.29c.16.21 2.24 3.42 5.43 4.8.76.33 1.35.52 1.81.67.76.24 1.46.21 2.01.13.61-.09 1.88-.77 2.15-1.51.27-.74.27-1.38.19-1.51-.08-.13-.29-.21-.61-.37Z"/></svg>WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Real Customer Reviews</p>
+        <h1>Honest feedback from real website customers</h1>
+        <p>Every review shown on this page has been submitted by genuine customers who have worked with Anirudh Singh. No fake testimonials. No paid reviews. Only honest customer feedback.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container review-summary-grid">
+        <div class="rating-panel reveal">
+          <p class="eyebrow">Average Rating</p>
+          <strong id="averageRating">No ratings yet</strong>
+          <div id="averageStars" class="review-stars">★★★★★</div>
+          <p id="totalReviews">No approved reviews yet</p>
+        </div>
+        <div id="ratingBreakdown" class="rating-breakdown reveal"></div>
+      </div>
+    </section>
+
+    <section class="section alt-section">
+      <div class="container review-layout">
+        <form class="review-form reveal" id="reviewForm">
+          <p class="eyebrow">Share Your Experience</p>
+          <h2>Submit a real customer review</h2>
+          <div class="form-grid">
+            <label>Full Name<input type="text" name="fullName" required placeholder="Your full name"></label>
+            <label>Business Name <span>(Optional)</span><input type="text" name="businessName" placeholder="Business name"></label>
+            <label>City <span>(Optional)</span><input type="text" name="city" placeholder="City"></label>
+            <label>Email <span>(Optional)</span><input type="email" name="email" placeholder="Email"></label>
+            <label>Website Created <span>(Optional)</span><input type="text" name="websiteCreated" placeholder="Personal, business, shop, portfolio"></label>
+            <label>Upload Profile Photo <span>(Optional)</span><input type="file" name="photo" accept="image/*"></label>
+          </div>
+          <div class="star-input" role="radiogroup" aria-label="Star Rating">
+            <input type="hidden" name="rating" id="ratingValue" value="0">
+            <button type="button" data-rating="1">★</button><button type="button" data-rating="2">★</button><button type="button" data-rating="3">★</button><button type="button" data-rating="4">★</button><button type="button" data-rating="5">★</button>
+          </div>
+          <label>Review Message<textarea name="message" rows="5" required placeholder="Write your honest experience"></textarea></label>
+          <button class="btn review-submit" type="submit"><i data-lucide="send"></i>Submit Review</button>
+          <p class="form-note">Your review will appear publicly only after admin approval.</p>
+        </form>
+
+        <div class="reviews-column reveal">
+          <div class="section-heading"><p class="eyebrow">Approved Reviews</p><h2>Customer feedback</h2></div>
+          <div id="reviewsList" class="review-grid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">AS</span><span><strong>Anirudh Singh</strong><small>Website Design Studio</small></span></a><p>Simple, professional and affordable website design starting from ₹2000 only.</p></div>
+      <div><h3>Services</h3><a href="services.html">Simple Website</a><a href="services.html">Business Website</a><a href="services.html">Portfolio Website</a></div>
+      <div><h3>Quick Links</h3><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></div>
+      <div><h3>Contact</h3><a href="tel:9467165134">9467165134</a><a href="mailto:triloksinghonline@gmail.com">triloksinghonline@gmail.com</a><a href="https://wa.me/919467165134" target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Anirudh Singh. All rights reserved.</span><span>Designed by Anirudh Singh</span></div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="reviews.js"></script>
+</body>
+</html>

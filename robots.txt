@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://triloksinghonline-cpu.github.io/Anirudh-designer/sitemap.xml
