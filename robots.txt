@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://triloksinghonline-cpu.github.io/Anirudh-designer/sitemap.xml
+Sitemap: https://triloksinghonline-cpu.github.io/Anirudh-website-studio2026/sitemap.xml
